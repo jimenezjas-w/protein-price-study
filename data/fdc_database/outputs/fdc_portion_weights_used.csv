@@ -1,0 +1,6 @@
+fdc_id,fdc_description,portion_amount,portion_unit_as_returned,portion_description,gram_weight,interpreted_as,used_in_calculation,how_used
+748967,"Eggs, Grade A, Large, egg whole",1,egg,,50.3,1 large egg,yes,50.3 g x 12 = 603.6 g per dozen
+171265,"Milk, whole, 3.25% milkfat, with added vitamin D",1,undetermined,,15,1 tablespoon,no,
+171265,"Milk, whole, 3.25% milkfat, with added vitamin D",1,undetermined,,30.5,1 fluid ounce,no,
+171265,"Milk, whole, 3.25% milkfat, with added vitamin D",1,undetermined,,244,1 cup,no,
+171265,"Milk, whole, 3.25% milkfat, with added vitamin D",1,undetermined,,976,1 quart,yes,"976 g x 4 = 3,904 g per gallon"

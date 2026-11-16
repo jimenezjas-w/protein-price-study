@@ -1,0 +1,100 @@
+﻿series_id,bls_product,bone_in,yr,avg_usd_per_unit,avg_usd_per_100g_protein,months_with_data
+APU0000703112,Ground beef (100% beef),NO,2016,3.7501,4.7175,12
+APU0000703112,Ground beef (100% beef),NO,2017,3.643,4.5817,12
+APU0000703112,Ground beef (100% beef),NO,2018,3.7153,4.6742,12
+APU0000703112,Ground beef (100% beef),NO,2019,3.8065,4.7875,12
+APU0000703112,Ground beef (100% beef),NO,2020,4.1154,5.1767,12
+APU0000703112,Ground beef (100% beef),NO,2021,4.3289,5.4458,12
+APU0000703112,Ground beef (100% beef),NO,2022,4.8101,6.0492,12
+APU0000703112,Ground beef (100% beef),NO,2023,5.0197,6.3133,12
+APU0000703112,Ground beef (100% beef),NO,2024,5.3929,6.785,12
+APU0000703112,Ground beef (100% beef),NO,2025,6.0895,7.66,11
+APU0000703112,Ground beef (100% beef),NO,2026,6.8068,8.5611,9
+APU0000704111,"Bacon, sliced",NO,2016,5.4208,8.7433,12
+APU0000704111,"Bacon, sliced",NO,2017,5.7689,9.305,12
+APU0000704111,"Bacon, sliced",NO,2018,5.4662,8.815,12
+APU0000704111,"Bacon, sliced",NO,2019,5.6125,9.0525,12
+APU0000704111,"Bacon, sliced",NO,2020,5.5822,9.0042,12
+APU0000704111,"Bacon, sliced",NO,2021,6.6382,10.7075,12
+APU0000704111,"Bacon, sliced",NO,2022,7.3073,11.7867,12
+APU0000704111,"Bacon, sliced",NO,2023,6.6538,10.7325,12
+APU0000704111,"Bacon, sliced",NO,2024,6.7762,10.9292,12
+APU0000704111,"Bacon, sliced",NO,2025,7.0196,11.3209,11
+APU0000704111,"Bacon, sliced",NO,2026,6.7474,10.8833,9
+APU0000706111,"Chicken, fresh, whole",YES,2016,1.4637,1.7617,12
+APU0000706111,"Chicken, fresh, whole",YES,2017,1.4719,1.7717,12
+APU0000706111,"Chicken, fresh, whole",YES,2018,1.4971,1.8025,12
+APU0000706111,"Chicken, fresh, whole",YES,2019,1.495,1.7983,12
+APU0000706111,"Chicken, fresh, whole",YES,2020,1.5629,1.8809,11
+APU0000706111,"Chicken, fresh, whole",YES,2021,1.5266,1.8358,12
+APU0000706111,"Chicken, fresh, whole",YES,2022,1.8007,2.1658,12
+APU0000706111,"Chicken, fresh, whole",YES,2023,1.9142,2.3042,12
+APU0000706111,"Chicken, fresh, whole",YES,2024,1.9984,2.405,12
+APU0000706111,"Chicken, fresh, whole",YES,2025,2.0601,2.4791,11
+APU0000706111,"Chicken, fresh, whole",YES,2026,2.0344,2.4489,9
+APU0000706212,"Chicken legs, bone-in",YES,2016,1.5287,2.0575,12
+APU0000706212,"Chicken legs, bone-in",YES,2017,1.4543,1.9583,12
+APU0000706212,"Chicken legs, bone-in",YES,2018,1.416,1.9075,12
+APU0000706212,"Chicken legs, bone-in",YES,2019,1.4296,1.9233,12
+APU0000706212,"Chicken legs, bone-in",YES,2020,1.5497,2.0875,12
+APU0000706212,"Chicken legs, bone-in",YES,2021,1.6433,2.2117,12
+APU0000706212,"Chicken legs, bone-in",YES,2022,1.898,2.5542,12
+APU0000706212,"Chicken legs, bone-in",YES,2023,1.9168,2.58,12
+APU0000706212,"Chicken legs, bone-in",YES,2024,1.8077,2.4325,12
+APU0000706212,"Chicken legs, bone-in",YES,2025,1.7899,2.4091,11
+APU0000706212,"Chicken legs, bone-in",YES,2026,1.7221,2.3178,9
+APU0000708111,"Eggs, Grade A, large",NO,2016,1.6842,2.2525,12
+APU0000708111,"Eggs, Grade A, large",NO,2017,1.4671,1.9617,12
+APU0000708111,"Eggs, Grade A, large",NO,2018,1.7417,2.3292,12
+APU0000708111,"Eggs, Grade A, large",NO,2019,1.3958,1.8658,12
+APU0000708111,"Eggs, Grade A, large",NO,2020,1.5058,2.0133,12
+APU0000708111,"Eggs, Grade A, large",NO,2021,1.674,2.2383,12
+APU0000708111,"Eggs, Grade A, large",NO,2022,2.8568,3.8208,12
+APU0000708111,"Eggs, Grade A, large",NO,2023,2.7962,3.7383,12
+APU0000708111,"Eggs, Grade A, large",NO,2024,3.1715,4.2408,12
+APU0000708111,"Eggs, Grade A, large",NO,2025,4.2516,5.6836,11
+APU0000708111,"Eggs, Grade A, large",NO,2026,2.3044,3.0822,9
+APU0000709112,"Milk, fresh, whole, fortified",NO,2016,3.2043,2.6058,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2017,3.2255,2.6242,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2018,2.8958,2.355,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2019,3.0357,2.4675,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2020,3.3184,2.6975,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2021,3.5445,2.88,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2022,4.091,3.3258,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2023,4.0274,3.2742,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2024,3.9839,3.2392,12
+APU0000709112,"Milk, fresh, whole, fortified",NO,2025,4.0665,3.3055,11
+APU0000709112,"Milk, fresh, whole, fortified",NO,2026,4.1679,3.3889,9
+APU0000710211,American processed cheese,NO,2016,4.3669,6.185,12
+APU0000710211,American processed cheese,NO,2017,4.2478,6.0158,12
+APU0000710211,American processed cheese,NO,2018,4.0074,5.6764,11
+APU0000710211,American processed cheese,NO,2019,3.8764,5.4908,12
+APU0000710211,American processed cheese,NO,2020,4.1042,5.8125,12
+APU0000710211,American processed cheese,NO,2021,4.0362,5.7175,12
+APU0000710211,American processed cheese,NO,2022,4.4011,6.2342,12
+APU0000710211,American processed cheese,NO,2023,4.7557,6.7358,12
+APU0000710211,American processed cheese,NO,2024,4.8928,6.9308,12
+APU0000710211,American processed cheese,NO,2025,4.9469,7.0073,11
+APU0000710211,American processed cheese,NO,2026,4.714,6.6756,9
+APU0000FC1101,All uncooked ground beef,NO,2016,4.2525,5.3508,12
+APU0000FC1101,All uncooked ground beef,NO,2017,4.1187,5.1808,12
+APU0000FC1101,All uncooked ground beef,NO,2018,4.1172,5.1808,12
+APU0000FC1101,All uncooked ground beef,NO,2019,4.2254,5.3142,12
+APU0000FC1101,All uncooked ground beef,NO,2020,4.6253,5.8192,12
+APU0000FC1101,All uncooked ground beef,NO,2021,4.8757,6.1333,12
+APU0000FC1101,All uncooked ground beef,NO,2022,5.3136,6.6833,12
+APU0000FC1101,All uncooked ground beef,NO,2023,5.4287,6.8292,12
+APU0000FC1101,All uncooked ground beef,NO,2024,5.7132,7.1858,12
+APU0000FC1101,All uncooked ground beef,NO,2025,6.3661,8.0091,11
+APU0000FC1101,All uncooked ground beef,NO,2026,7.0248,8.8356,9
+APU0000FF1101,"Chicken breast, boneless",NO,2016,3.2494,3.1808,12
+APU0000FF1101,"Chicken breast, boneless",NO,2017,3.2039,3.1383,12
+APU0000FF1101,"Chicken breast, boneless",NO,2018,3.0753,3.0117,12
+APU0000FF1101,"Chicken breast, boneless",NO,2019,3.0163,2.955,12
+APU0000FF1101,"Chicken breast, boneless",NO,2020,3.2231,3.1567,12
+APU0000FF1101,"Chicken breast, boneless",NO,2021,3.4504,3.3783,12
+APU0000FF1101,"Chicken breast, boneless",NO,2022,4.3236,4.2342,12
+APU0000FF1101,"Chicken breast, boneless",NO,2023,4.2292,4.1442,12
+APU0000FF1101,"Chicken breast, boneless",NO,2024,4.0455,3.9608,12
+APU0000FF1101,"Chicken breast, boneless",NO,2025,4.1576,4.0727,11
+APU0000FF1101,"Chicken breast, boneless",NO,2026,4.1698,4.0867,9

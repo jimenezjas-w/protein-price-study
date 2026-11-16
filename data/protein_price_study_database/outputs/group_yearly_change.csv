@@ -1,0 +1,41 @@
+﻿yr,food_group,weighted_avg_pct_change,contribution_pts
+2016,non_protein,0.10,0.04
+2017,non_protein,-0.05,-0.02
+2018,non_protein,0.29,0.12
+2019,non_protein,1.01,0.41
+2020,non_protein,2.57,1.05
+2021,non_protein,2.70,1.10
+2022,non_protein,11.57,4.71
+2023,non_protein,6.28,2.56
+2024,non_protein,1.07,0.43
+2025,non_protein,1.48,0.60
+2016,protein,-3.96,-0.79
+2017,protein,-0.47,-0.09
+2018,protein,0.82,0.16
+2019,protein,0.51,0.10
+2020,protein,5.69,1.14
+2021,protein,5.21,1.04
+2022,protein,11.28,2.26
+2023,protein,2.52,0.50
+2024,protein,1.48,0.30
+2025,protein,4.40,0.88
+2016,All food,0.30,NULL
+2016,Food at home,-1.30,NULL
+2017,All food,0.90,NULL
+2017,Food at home,-0.20,NULL
+2018,All food,1.40,NULL
+2018,Food at home,0.40,NULL
+2019,All food,1.90,NULL
+2019,Food at home,0.90,NULL
+2020,All food,3.40,NULL
+2020,Food at home,3.50,NULL
+2021,All food,3.90,NULL
+2021,Food at home,3.50,NULL
+2022,All food,9.90,NULL
+2022,Food at home,11.40,NULL
+2023,All food,5.80,NULL
+2023,Food at home,5.00,NULL
+2024,All food,2.30,NULL
+2024,Food at home,1.20,NULL
+2025,All food,2.90,NULL
+2025,Food at home,2.30,NULL

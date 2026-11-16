@@ -1,0 +1,22 @@
+USE fdc; --selecting which products will be focused on in the study, choosing common meats and protein items.
+
+DROP TABLE IF EXISTS bls_fdc_map;
+
+CREATE TABLE bls_fdc_map (
+	series_id VARCHAR(20),
+	bls_product VARCHAR(100),
+	bls_unit VARCHAR(20),
+	fdc_id INT,
+	notes VARCHAR(300)
+);
+
+INSERT INTO bls_fdc_map (series_id, bls_product, bls_unit, fdc_id, notes) VALUES
+('APU0000703112', 'Ground beef (100% beef)', 'per lb', 2514744, 'Beef, ground, 80% lean meat / 20% fat, raw'),
+('APU0000704111', 'Bacon, sliced', 'per lb', 168277, 'Pork, cured, bacon, unprepared'),
+('APU0000706111', 'Chicken, fresh, whole', 'per lb', 171047, 'Chicken, broilers or fryers, meat and skin and giblets and neck, raw. FDC value covers only edible meat, BLS price includes bone.'),
+('APU0000706212', 'Chicken legs, bone-in', 'per lb', 172378, 'Chicken, broilers or fryers, leg, meat and skin, raw. FDC value covers only edible meat, BLS price includes bone.'),
+('APU0000708111', 'Eggs, Grade A, large', 'per dozen', 748967, 'Eggs, Grade A, Large, Egg whole'),
+('APU0000709112', 'Milk, fresh, whole, fortified', 'per gallon', 171265, 'Milk, whole, 3.25% milkfat, with added vitamin D. BLS specifies fortified.'),
+('APU0000710211', 'American processed cheese', 'per lb', 2647439, 'Cheese, pasteurized process cheese food or product, American, singles'),
+('APU0000FC1101', 'All uncooked ground beef', 'per lb', 2514744, 'Beef, ground, 80% lean meat / 20% fat, raw'),
+('APU0000FF1101', 'Chicken breast, boneless', 'per lb', 171077, 'Chicken breast, broiler or fryers, breast, skinless, boneless, meat only, raw');

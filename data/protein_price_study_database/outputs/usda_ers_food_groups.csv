@@ -1,0 +1,13 @@
+﻿item,food_group
+All food,benchmark
+Cereals and bakery products,non_protein
+Dairy products,protein
+Eggs,protein
+Fats and oils,non_protein
+Food at home,benchmark
+Food away from home,benchmark
+Fruits and vegetables,non_protein
+"Meats, poultry, and fish",protein
+Nonalcoholic beverages,non_protein
+Other foods,non_protein
+Sugar and sweets,non_protein
