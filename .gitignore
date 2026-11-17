@@ -1,0 +1,19 @@
+# SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+*.bak
+
+# Large raw FDC downloads
+data/raw/fdc/
+FoodData_Central_*/
+*.zip
+
+# Tableau extracts (large, regenerated)
+*.hyper
+
+# System and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

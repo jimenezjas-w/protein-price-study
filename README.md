@@ -1,20 +1,20 @@
-# **Protein Price Study** <!-- introduction -->
+# Protein Price Study
 **Have protein related groceries risen in price differently from other groceries over the last decade?**
 
 An exploratory SQL Server and Tableau analysis of BLS, USDA ERS, USDA Food Central, and Google Trends data, 2016-2025.
 
 ## Summary
-I wanted to know whether or not protein-related groceries were changing differently in price than other groceries due to the sudden surge of interest in protein-oriented diets and products. 
+* I wanted to know whether or not protein-related groceries were changing differently in price than other groceries due to the sudden surge of interest in protein-oriented diets and products. 
 
-I had used the FoodData Central (**FDC**) database to isolate which protein products I would use in the study along with how many grams of protein are in each product. 
+* I had used the FoodData Central (**FDC**) database to isolate which protein products I would use in the study along with how many grams of protein are in each product. 
 
-I used the Bureau of Labor Statistics (**BLS**) database to find the average price data of each selected item and calculated the average USD per gram of protein in each selected protein product.
+* I used the Bureau of Labor Statistics (**BLS**) database to find the average price data of each selected item and calculated the average USD per gram of protein in each selected protein product.
 
- I used the USDA Economic Research Service (**ERS**) database to find the increases in all groceries over the same time window to see whether or not the changes in price matched regardless of protein content. 
+ * I used the USDA Economic Research Service (**ERS**) database to find the increases in all groceries over the same time window to see whether or not the changes in price matched regardless of protein content. 
  
- Finally, I used Google Trends to gauge general interest in protein products and price change concerns to find whether or not any spikes in prices lined up with said interests. 
+ * Finally, I used Google Trends to gauge general interest in protein products and price change concerns to find whether or not any spikes in prices lined up with said interests. 
 
-The result I found was that there was a weak correlation between protein-adjacent interest and any change in pricing of said groceries. Any change in protein-grocery price was closely matching all groceries. 
+The result I found was that there was no year-to-year relationship between protein-adjacent interest and change in pricing. Any change in protein-grocery price was closely matching all groceries. 
 
 ## Key Findings
 
@@ -28,7 +28,7 @@ The result I found was that there was a weak correlation between protein-adjacen
 ### 2. Protein groceries rose about as much as other groceries
 ![Line chart of yearly price change for protein, non-protein, Food at home and All food](<graphs/Yearly price change_ protein vs. non-protein vs. Food at home vs. All food.png>)
 
-**Takeaway:** All groceries rose around 30% in total. Protein led in 2020, 2021, and 2025 but lagged behind in 2023. 
+**Takeaway:** Protein and non-protein groceries each rose around 30% in total from 2016 to 2025 (All food rose about 38%). Protein led in 2020, 2021, and 2025 but lagged behind in 2023. 
 
 **Caveat:** Weighted averages use current shopping-basket weights, and dairy counts as protein.
 
@@ -44,7 +44,7 @@ The result I found was that there was a weak correlation between protein-adjacen
 
 **Takeaway:** The two moved roughly in the same direction in 9 of 9 years for ground beef, and 8 of 9 years for eggs, bacon and milk. Cheese and chicken breast had a weaker agreement, with only 5 of 9 years. BLS swings were larger than ERS, particularly for eggs.
 
-**Caveat:** ERS categories were broader than single products. Bone-in chicken and "All uncooked ground beef" was excluded.
+**Caveat:** ERS categories were broader than single products. Bone-in chicken and "All uncooked ground beef" were excluded.
 
 ## Question and Sub-questions
 
@@ -55,8 +55,7 @@ The result I found was that there was a weak correlation between protein-adjacen
 1. Which protein source is cheapest per gram of protein, and did that change over the last decade?
 2. Did protein groceries rise faster than other groceries?
 3. Did search interest in protein follow any accelerated price changes?
-4. Did inflation impact how people purchased foods?
-5. Do my BLS prices agree with the goverment's price measure?
+4. Do my BLS prices agree with the goverment's price measure?
 
 ## Interactive Dashboard
 
@@ -68,10 +67,10 @@ The result I found was that there was a weak correlation between protein-adjacen
 
 | Source | What I used | Link | Downloaded |
 |---|---|---|---|
-| U.S. Bureau of Labor Statistics (BLS), Average Price Data | Monthly average retail prices, 9 series (eggs, milk, ground beef x2, bacon, chicken whole/breast/legs, American cheese), 2016-2026 | https://www.bls.gov/data/ | [2026-11-01] |
-| USDA Economic Research Service (ERS), Food Price Outlook | Yearly CPI-based price change for 22 food categories (1974-2025 history, 2024-2027 outlook), plus relative importance weights | https://www.ers.usda.gov/data-products/food-price-outlook/ | [2026-11-01] |
-| USDA FoodData Central (FDC) | Protein per 100 g and portion weights for 8 foods (SR Legacy and Foundation Foods) | https://fdc.nal.usda.gov/ | [2026-11-01] |
-| Google Trends | Monthly relative search interest (US, 2016-01 to 2026-10), 4 protein terms and 6 price-worry terms | https://trends.google.com/trends/ |[2026-11-01] |
+| U.S. Bureau of Labor Statistics (BLS), Average Price Data | Monthly average retail prices, 9 series (eggs, milk, ground beef x2, bacon, chicken whole/breast/legs, American cheese), 2016-2026 | https://www.bls.gov/data/ | 2026-11-01 |
+| USDA Economic Research Service (ERS), Food Price Outlook | Yearly CPI-based price change for 22 food categories (1974-2025 history, 2024-2027 outlook), plus relative importance weights | https://www.ers.usda.gov/data-products/food-price-outlook/ | 2026-11-01 |
+| USDA FoodData Central (FDC) | Protein per 100 g and portion weights for 8 foods (SR Legacy and Foundation Foods) | https://fdc.nal.usda.gov/ | 2026-11-01 |
+| Google Trends | Monthly relative search interest (US, 2016-01 to 2026-10), 4 protein terms and 6 price-worry terms | https://trends.google.com/trends/ | 2026-11-01 |
 
 Raw, unedited downloads are in `data/raw/`. The full FDC download (about 3 GB) is not included; `data/fdc_database/outputs/` holds the exact rows I used.
 
@@ -86,7 +85,7 @@ data/*/inputs/  (cleaned CSVs)
    v
 fdc database:  scripts 01-03  ->  cost_per_protein.csv
    v
-protein_price_study database:  scripts 00, 04-11
+protein_price_study database:  scripts 04-11
    v
 data/*/outputs/  (exported tables)  ->  Tableau Public  ->  graphs/
 ```
@@ -115,7 +114,7 @@ protein-price-study/
 │       └── outputs/   (bls_yearly, protein_cost_rank, bls_vs_ers, usda_ers_food_groups, group_yearly_change, google_trends_long, google_trends_yearly, protein_trends_vs_prices)
 ├── sql/
 │   ├── fdc_database/                  (01-03)
-│   ├── protein_price_study_database/  (00, 04-11)
+│   ├── protein_price_study_database/  (04-11)
 │   ├── analysis/
 │   └── exploration/
 └── graphs/
@@ -137,7 +136,7 @@ protein-price-study/
 | `relative_importance_pct.csv` | `relative_importance_pct` | decimal(5,1) and decimal(4,1) |
 | `protein_google_trends.csv` | `protein_google_trends` | `time` date, search terms int |
 
-5. **Run** `00_set_column_types.sql`, then `04` through `11` in order.
+5. **Run** `04` through `11` in order.
 6. **Charts:** open the CSVs in `data/protein_price_study_database/outputs/` in Tableau Public.
 
 
@@ -171,6 +170,6 @@ protein-price-study/
 - **Code** (the SQL scripts) is licensed under the MIT License (see `LICENSE`).
 - **Data** is not covered by that license. Each source keeps its own terms:
   - **BLS and USDA ERS:** U.S. federal agency data. Cite the source, and confirm each agency's reuse policy on its site.
-  - **USDA FoodData Central:** in the public domain and published under CC0 1.0. No permission is needed, but the USDA asks users to credit FoodData Central as the source. Credit: USDA Agricultural Research Service, FoodData Central, https://fdc.nal.usda.gov/ (SR Legacy and Foundation Foods; accessed [2026-11-01]).
+  - **USDA FoodData Central:** in the public domain and published under CC0 1.0. No permission is needed, but the USDA asks users to credit FoodData Central as the source. Credit: USDA Agricultural Research Service, FoodData Central, https://fdc.nal.usda.gov/ (SR Legacy and Foundation Foods; accessed 2026-11-01).
   - **Google Trends:** accessed through the website's download feature and used under Google's terms of service. Google Trends data is relative, not absolute.
 - This is an independent, educational project and not an official analysis by any of these agencies.
