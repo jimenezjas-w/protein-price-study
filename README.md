@@ -59,7 +59,7 @@ The result I found was that there was no year-to-year relationship between prote
 
 ## Interactive Dashboard
 
-[View the dashboard on tableau Public](https://us-east-1.online.tableau.com/t/jimenezjasw-ootegktb/views/protein-price-study-workbook/Dashboard1)
+[View the dashboard on Tableau Public](https://us-east-1.online.tableau.com/t/jimenezjasw-ootegktb/views/protein-price-study-workbook/Dashboard1)
 
 
 
