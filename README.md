@@ -1,7 +1,7 @@
 # Protein Price Study
 **Have protein related groceries risen in price differently from other groceries over the last decade?**
 
-An exploratory SQL Server and Tableau analysis of BLS, USDA ERS, USDA Food Central, and Google Trends data, 2016-2025.
+An exploratory SQL Server and Tableau analysis of BLS, USDA ERS, USDA FoodData Central, and Google Trends data, 2016-2025.
 
 ## Summary
 * I wanted to know whether or not protein-related groceries were changing differently in price than other groceries due to the sudden surge of interest in protein-oriented diets and products. 
@@ -55,11 +55,11 @@ The result I found was that there was no year-to-year relationship between prote
 1. Which protein source is cheapest per gram of protein, and did that change over the last decade?
 2. Did protein groceries rise faster than other groceries?
 3. Did search interest in protein follow any accelerated price changes?
-4. Do my BLS prices agree with the goverment's price measure?
+4. Do my BLS prices agree with the government's price measure?
 
 ## Interactive Dashboard
 
-[View the dashboard on Tableau Public](https://us-east-1.online.tableau.com/t/jimenezjasw-ootegktb/views/protein-price-study-workbook/Dashboard1)
+[View the dashboard on Tableau Cloud](https://us-east-1.online.tableau.com/t/jimenezjasw-ootegktb/views/protein-price-study-workbook/Dashboard1)
 
 
 
@@ -132,7 +132,7 @@ protein-price-study/
 | CSV | Table | Key column types |
 |---|---|---|
 | `cost_per_protein.csv` | `cost_per_protein` | prices and protein values as decimal, `price_date` as date |
-| `usda_ers_prices.csv` | `usda_ers_prices` | `yr` int, `pct_change` decimal(6,2) |
+| `usda_ers_prices.csv` | `usda_ers_prices` | `year` int, `pct_change` decimal(6,2) |
 | `relative_importance_pct.csv` | `relative_importance_pct` | decimal(5,1) and decimal(4,1) |
 | `protein_google_trends.csv` | `protein_google_trends` | `time` date, search terms int |
 
@@ -147,11 +147,11 @@ protein-price-study/
 * Generic raw foods only, no brand-name entries.
 * 80/20 raw ground beef for both BLS beef series, as BLS does not specify lean percentage (a grass-fed entry was considered).
 * Milk: whole, with added vitamin D (BLS milk is fortified).
-* Cheese: pasteurized process American singles (most popular cheese on market).
+* Cheese: pasteurized process American singles.
 * Whole chicken and bone-in legs: FDC counts edible meat only, but BLS prices include bone, so protein is overstated. Flagged `bone_in`, and was excluded from rankings. 
-* Unit conversions: 453.6 g per pounds; eggs 50.3 g × 12 = 603.6 g per dozen; milk 976 g per quart (unlabeled FDC row, identified by arithmetic) × 4 = 3,904 g per gallon.
-* BLS: `-` values became blanks. October 2025 was missing for all series (due to federal shutdown), November 2018 for cheese, and May 202 for whole chicken. Nothing was filled in or interpolated.
-* ERS: collapsed 5 category collumns into one item, split attributes into `type` and year, dropped duplicate 2024-2025 rows, kept forecasts as separate rows, dropped blank Processed fruits and vegetables years (not tracked before 1999), moved relative importance and 20-year average into a separate table.
+* Unit conversions: 453.6 g per pound; eggs 50.3 g × 12 = 603.6 g per dozen; milk 976 g per quart (unlabeled FDC row, identified by arithmetic) × 4 = 3,904 g per gallon.
+* BLS: `-` values became blanks. October 2025 was missing for all series (due to federal shutdown), November 2018 for cheese, and May 2020 for whole chicken. Nothing was filled in or interpolated.
+* ERS: collapsed 5 category columns into one item, split attributes into `type` and year, dropped duplicate 2024-2025 rows, kept forecasts as separate rows, dropped blank Processed fruits and vegetables years (not tracked before 1999), moved relative importance and 20-year average into a separate table.
 * Trends: merged protein interest and price worry into one table.
 * Food groups: protein = Meats, poultry, and fish; Eggs; Dairy products. Non-protein = six other categories. Benchmarks = All food and Food at home. Only mid-level categories were used so nothing is double-counted.
 * Dairy counted as protein because of its significant protein content. 
